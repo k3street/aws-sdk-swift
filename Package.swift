@@ -29,7 +29,7 @@ let package = Package(
     platforms: [
         .macOS(.v10_15),
         .iOS(.v13),
-        .visionOS
+        .visionOS(.v1)
     ],
     products: [
         .library(name: "AWSClientRuntime", targets: ["AWSClientRuntime"])
